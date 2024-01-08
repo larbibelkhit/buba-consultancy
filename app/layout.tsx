@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className='bg-white'>
         <Navbar />
-        <main className="max-container padding-container relative overflow-hidden">
+        <main className="relative overflow-hidden">
           {children}
         </main>
         <Footer />

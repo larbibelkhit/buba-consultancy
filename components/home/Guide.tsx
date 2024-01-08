@@ -3,7 +3,7 @@ import Image from "next/image"
 const Guide = () => {
   return (
     <section className="flexCenter flex-col">
-        <div className="w-full pb-14">
+        <div className="max-container padding-container w-full pb-14">
             <p className="regular-18 uppercase">we are here for you</p>
             <div className='flex flex-wrap justify-between gap-5 lg:gap-10'>
                 <h2 className='bold-40 lg:bold-64 xl:max-w-[390px]'>Don't Go Into a New Venture On Your Own</h2>
@@ -14,19 +14,19 @@ const Guide = () => {
             </div>
         </div>
         <div className="flexCenter relative w-full">
-            <Image src="/VillaSumosanRestaurant.jpg" alt='restaurant' width={1440} height={580} className='rounded-sm w-full object-cover object-center 2xl:rounded-5xl'/>
+            <Image src="/JiJi-Table.jpg" alt='restaurant' width={1440} height={500} className='rounded-sm w-full object-cover object-center 2xl:rounded-5xl'/>
             <div className='hidden md:absolute md:flex bg-red-700 py-8 pl-5 border border-white pr-7 gap-3 rounded-3xl shadow-md md:left-[5%] lg:top-20'>
                 <div className='flexBetween flex-col'>
                     <div className='flex w-full flex-col'>
                         <div className='flexBetween w-full'>
                             <p className='regular-16 text-white'>Year</p>
-                            <p className='bold-16 text-white'>2018</p>
+                            <p className='bold-16 text-white'>2021</p>
                         </div>
-                        <p className='bold-20 mt-2 text-white'>Villa Sumosan</p>
+                        <p className='bold-20 mt-2 text-white'>JiJi Restaurant</p>
                     </div>
                     <div className='flex w-full flex-col mt-5'>
                         <p className='regular-16 text-white'>Location</p>
-                        <h4 className='bold-20 mt-2 whitespace-nowrap text-white'>Moscow, Russia</h4>
+                        <h4 className='bold-20 mt-2 whitespace-nowrap text-white'>London, UK</h4>
                     </div>
                 </div>
             </div>
