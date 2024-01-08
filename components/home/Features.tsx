@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <section className="flex-col flexCenter overflow-hidden py-24">
+    <section className="max-container padding-container flex-col flexCenter overflow-hidden py-24">
         <div className="z-20 flex w-full flex-col text-center">
             <h2 className="bold-32">Our Team Delivers</h2>
             <ul className="my-10 grid md:grid-cols-2 md:grid-rows-2 gap-12">

@@ -43,6 +43,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className="border bg-gray-50"/>
+            <p className="regular-14 text-center">All rights reserved | Buba Consultancy 2024</p>
         </div>
     </footer>
   )
