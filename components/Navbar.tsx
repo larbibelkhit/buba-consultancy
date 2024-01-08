@@ -9,8 +9,8 @@ const Navbar = () => {
     const [mobileMenuOpen, setMobileOpen] = useState(false)
 
     return (
-        <header>
-            <nav className="flexBetween max-container padding-container relative z-30 py-5 uppercase">
+        <header className="fixed top-0 right-0 left-0 bg-white z-40">
+            <nav className="flexBetween max-container padding-container relative z-40 md:py-5 uppercase">
                 <Link href="/">
                     <p className="font-bold text-lg hover:text-red-800 transition-all">Buba Consultancy</p>
                 </Link>
